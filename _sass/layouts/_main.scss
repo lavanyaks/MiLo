@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+body {
+    @include transition(all, 1s, ease-in-out, 0s);
+    background-color: $background;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+header, main, footer {
+    // display: inline-block;
+}
+
+header {
+    padding: 50px;
+}
+
+footer {
+    padding: 40px;
+}
+
+main {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div {
+    display: block;
+}
+
+img {
+    width: 100%;
+    animation: opacity 0.3s linear;
+}
+
+ul {
+
+}
+
+li {
+    
+}
+
+input, textarea {
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: $link-light;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    width: auto;
+}
+
+.wrapper {
+        position: fixed; /* Sit on top of the page content */
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.75);
+        height: 100%;
+        // transition: opacity 1s;    
+        display: none; /* Hidden by default */
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+    }
+
+.page-content.open {
+    
+    .wrapper {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    main {
+    }
+}
+
+// ANIMATIONS
+
+@keyframes opacityChange {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

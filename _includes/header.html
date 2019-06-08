@@ -1,0 +1,30 @@
+<div class="slide-header">
+    <div class="header">
+        <div class="logo"><img src="assets/images/header-logo-white.svg" alt="{{ site.title }}"></div>
+    </div>
+    <div class="header-container">
+        <nav role="navigation">
+            <ul>
+                {% for menu_item in site.data.menu.items %}
+                    <li class="menu-option"><a href="{{ menu_item.url }}">{{ menu_item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- .slide-header -->
+
+<header class="header">
+    <div class="logo"><img src="assets/images/header-logo.svg" alt="{{ site.title }}"></div>
+    <div class="menu-icon">
+        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+        <span class="horizontal-menu-bar menu-top-bar"></span>
+        <span class="horizontal-menu-bar menu-middle-bar"></span>
+        <span class="horizontal-menu-bar menu-bottom-bar"></span>
+        
+        <button class="menu-text">
+            <span>M E</span>
+            <span>N U</span>
+        </div>
+    </div>
+</header> <!-- header -->

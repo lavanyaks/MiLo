@@ -1,0 +1,42 @@
+$black: #000000;
+$white: #ffffff;
+
+// COLOUR PALETTE
+
+$grey: #969696;
+$dark-grey: #525252;
+
+// MAIN
+$background-light: $white;
+$background-dark: $black;
+$border-color: $black;
+
+// TEXT COLOUR
+$text-dark: $black;
+$text-grey: $grey;
+$text-light: $white;
+
+// HEADER & FOOTER
+$header-background: $background-light;
+$header-open-background: $background-dark;
+$footer-background: $background-dark;
+
+// FOOTER TEXT
+$footer-text: $text-light;
+
+// BODY
+$background: $background-light;
+
+// LINKS
+$link: $black;
+$link-hover: $white;
+$link-light: $white;
+$link-light-hover: $black;
+
+// ELEMENTS COLORS
+$button-bg: $dark-grey;
+$button-hover-bg: $white;
+
+// PAGINATION
+$page-active-bg: $dark-grey;
+$page-active: $white;

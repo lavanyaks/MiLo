@@ -1,0 +1,36 @@
+footer {
+    background-color: $footer-background;
+    color: $footer-text;
+    padding: 40px 0 0;
+    width: 100%;
+
+    .footer-logo {
+
+    }
+
+    div {
+        display: inline-block;
+    }
+
+    .footer-text {
+        padding: 0 50px;
+        width: calc(100% - 152px);
+        vertical-align: top;
+    }
+
+    ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: calc(100% - 152px);
+    }
+
+    a {
+        font-size: 40px;
+        line-height: 70px;
+        text-decoration: underline;
+        width: 50%;
+        float: left;
+    }
+}

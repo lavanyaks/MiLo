@@ -1,0 +1,15 @@
+items:
+  - name: About
+    url: /about/
+
+  - name: For People
+    url: /for-people/
+
+  - name: For Brands
+    url: /for-brands/
+
+  - name: Contact
+    url: /contact/
+
+footer:
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 

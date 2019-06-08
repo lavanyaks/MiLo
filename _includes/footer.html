@@ -1,0 +1,14 @@
+<footer>
+	<div class="logo"><img src="assets/images/footer-logo.svg" alt="{{ site.title }}"></div>
+
+	<div class="footer-text">
+		<ul class="footer-navigation">
+			{% for menu_item in site.data.menu.items %}
+			<li class="menu-option"><a
+					href="{{ menu_item.url }}">{{ menu_item.name }}</a></li>
+			{% endfor %}
+		</ul>
+		
+		<p>{{ site.data.menu.footer }}</p>
+	</div>
+</footer>
