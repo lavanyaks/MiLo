@@ -9,7 +9,9 @@ $dark-grey: #525252;
 // MAIN
 $background-light: $white;
 $background-dark: $black;
+$background-none: transparent;
 $border-color: $black;
+$border-color-light: $white;
 
 // TEXT COLOUR
 $text-dark: $black;
@@ -17,7 +19,7 @@ $text-grey: $grey;
 $text-light: $white;
 
 // HEADER & FOOTER
-$header-background: $background-light;
+$header-background: $background-none;
 $header-open-background: $background-dark;
 $footer-background: $background-dark;
 

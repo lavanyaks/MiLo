@@ -5,7 +5,7 @@
     position: fixed;
     right: -100%;
     width: 100%;
-    padding: 50px;
+    padding: 20px 50px 50px;
     text-align: right;
     z-index: 3;
 
@@ -24,10 +24,14 @@
         font-size: 80px;
         line-height: 70px;
         text-align: left;
-        text-decoration: underline;
         display: inline-block;
         width: 50%;
         float: left;
+    }
+
+    a {
+        margin-bottom: 30px;
+        text-decoration: none;
     }
 }
 
@@ -77,6 +81,7 @@
 header.header {
     background-color: $header-background;
     color: $text-light;
+    position: absolute;
 }
 
 .header {

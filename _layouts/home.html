@@ -1,6 +1,52 @@
 ---
 layout: default
 ---
-
 <div class="home">
+  <div class="featured-content" style="background-image:url({{site.data.index.featured_content.background_url}})">
+    {% for link in site.data.index.featured_content.links %}
+      <a href="{{ link.url }}">{{ link.text }}</a>
+    {% endfor %}
+    <h3>{{ site.data.index.featured_content.text }}</h3>
+
+    <div class="scroll-down">
+      <i class="fas fa-arrow-down"></i>
+    </div>
+  </div>
+
+  {% for client in site.data.index.clients %}
+  <div class="client">
+    <div class="client-image">
+      <img src="{{client.url}}">
+    </div>
+    <div class="description">
+      <h4 class="emphasize">{{ client.name }}</h4>
+      <h5>{{ client.sub-title }}</h5>
+      <p>{{ client.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="social">
+    <h2 class="emphasize">{{ site.data.index.social }}</h2>
+
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </div>
+
+  <div class="social-large" style="background-image:url({{site.data.index.social_large.url}})">
+    <h3>{{ site.data.index.social_large.title }}</h3>
+    <p class="description">{{ site.data.index.social_large.description }}</p>
+
+    <h2 class="emphasize">{{ site.data.index.social_large.social }}</h2>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </div>
 </div>

@@ -2,7 +2,7 @@ var cacheName = "M1";
 // var dataCacheName = "weatherData-v1";
 var filesToCache = [
     '/',
-    '/css/styles.css',
+    'assets/css/styles.css',
     '/assets/js/main.js'
 ];
 

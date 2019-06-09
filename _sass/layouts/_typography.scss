@@ -14,28 +14,35 @@ h1 {
 }
 
 h2 {
-
+    font-size: 80px;
 }
 
 h3 {
-
+    font-size: 60px;
+    line-height: 60px;
+    margin: 60px 0;
 }
 
 h4 {
-
+    font-size: 50px;
 }
 
 h5 {
-
+    font-size: 32px;
+    margin: 10px 0 15px;
 }
 
 h6 {
 
 }
 
+p {
+    font-size: 24px;
+}
+
 a, p {
     font-family: $body-text;
-    line-height: 1.75;
+    line-height: 1.5;
     margin: 0;
 }
 
@@ -50,5 +57,14 @@ button, .sub-menu, .pagination li, .social-share {
 .slide-header {
     li {
         font-family: $headings;
+    }
+}
+
+.scroll-down {
+    font-size: 36px;
+
+    i:hover {
+        @include transition(all, 0.5s, ease-in, 0s);
+        padding: 20px;
     }
 }

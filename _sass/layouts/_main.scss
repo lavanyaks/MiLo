@@ -6,7 +6,6 @@
 }
 
 body {
-    @include transition(all, 1s, ease-in-out, 0s);
     background-color: $background;
     margin: 0;
     overflow-x: hidden;
@@ -18,7 +17,7 @@ header, main, footer {
 }
 
 header {
-    padding: 50px;
+    padding: 20px 50px 50px;
 }
 
 footer {
@@ -30,7 +29,6 @@ main {
 }
 
 a {
-    text-decoration: none;
     cursor: pointer;
 }
 
@@ -67,26 +65,14 @@ button {
     width: auto;
 }
 
-.wrapper {
-        position: fixed; /* Sit on top of the page content */
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.75);
-        height: 100%;
-        // transition: opacity 1s;    
-        display: none; /* Hidden by default */
-        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-        cursor: pointer; /* Add a pointer on hover */
-    }
+.emphasize {
+    border-bottom: 4px solid $border-color;
+    display: inline-block;
+    line-height: 0.79;
 
-.page-content.open {
-    
-    .wrapper {
-        display: block;
+    &-dark {
+        border-bottom-color: $border-color-light;
     }
-    
 }
 
 @media screen and (max-width: 768px) {
