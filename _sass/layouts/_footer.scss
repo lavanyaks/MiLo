@@ -4,18 +4,12 @@ footer {
     padding: 40px 0 0;
     width: 100%;
 
-    .footer-logo {
-
+    .logo {
+        margin: 0 0 50px;
     }
 
     div {
         display: inline-block;
-    }
-
-    .footer-text {
-        padding: 0 50px;
-        width: calc(100% - 152px);
-        vertical-align: top;
     }
 
     ul {
@@ -23,13 +17,25 @@ footer {
         margin: 0;
         padding: 0;
         list-style-type: none;
-        width: calc(100% - 152px);
+        width: 100%;
+
+        a {
+            font-size: 24px;
+            margin-bottom: 30px;
+            width: 50%;
+            float: left;
+        }
     }
 
-    a {
-        font-size: 40px;
-        margin-bottom: 30px;
-        width: 50%;
-        float: left;
+    @media only screen and (min-width: $desktop) {
+        a {
+            font-size: 40px;
+        }
+
+        .footer-text {
+            padding: 0 50px;
+            width: calc(100% - 152px);
+            vertical-align: top;
+        }
     }
 }

@@ -16,6 +16,13 @@ showMenu[0].addEventListener('click', function () {
     }
 });
 
+closeMenu[0].addEventListener('click', function () {
+    if (navMenu[0].classList.contains('open')) {
+        navMenu[0].classList.remove('open');
+        mainClass[0].classList.remove('open');
+    }
+});
+
 mainClass[0].addEventListener('click', function (event) {
     if (navMenu[0].classList.contains('open')) {
         navMenu[0].classList.remove('open');
@@ -24,7 +31,7 @@ mainClass[0].addEventListener('click', function (event) {
 });
 
 if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("./service-worker.js").then(function() {
+    navigator.serviceWorker.register("/service-worker.js").then(function() {
         console.log("Service Worker Registered");
     });
 }

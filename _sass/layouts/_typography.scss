@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 15px;
 }
 
 a, p {
@@ -66,5 +66,34 @@ button, .sub-menu, .pagination li, .social-share {
     i:hover {
         @include transition(all, 0.5s, ease-in, 0s);
         padding: 20px;
+    }
+}
+
+@media only screen and (min-width: $desktop) {
+    h1 {
+        
+    }
+
+    h4 {
+        font-size: 50px;
+    }
+
+    h5 {
+        font-size: 32px;
+        margin: 10px 0 15px;
+    }
+
+    h6 {
+
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    a, p {
+        font-family: $body-text;
+        line-height: 1.5;
+        margin: 0;
     }
 }

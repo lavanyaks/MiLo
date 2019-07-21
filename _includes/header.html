@@ -1,6 +1,13 @@
 <div class="slide-header">
     <div class="header">
-        <div class="logo"><img src="assets/images/header-logo-white.svg" alt="{{ site.title }}"></div>
+        <div class="logo">
+            <a href="{{ site.baseurl }}">
+                <img src="/assets/images/header-logo-white.svg" alt="{{ site.title }}">
+            </a>
+        </div>
+        <button class="menu-close">
+            <i class="fas fa-times"></i>
+        </button>
     </div>
     <div class="header-container">
         <nav role="navigation">
@@ -15,7 +22,12 @@
 <!-- .slide-header -->
 
 <header class="header">
-    <div class="logo"><img src="assets/images/header-logo.svg" alt="{{ site.title }}"></div>
+    <div class="logo">
+        <a href="{{ site.baseurl }}">
+            <img class="mobile" src="/assets/images/header-logo-mobile.png" alt="{{ site.title }}">
+            <img class="desktop" src="/assets/images/header-logo.svg" alt="{{ site.title }}">
+        </a>
+    </div>
     <div class="menu-icon">
         <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
         <span class="horizontal-menu-bar menu-top-bar"></span>
@@ -25,6 +37,6 @@
         <button class="menu-text">
             <span>M E</span>
             <span>N U</span>
-        </div>
+        </button>
     </div>
 </header> <!-- header -->

@@ -41,14 +41,6 @@ img {
     animation: opacity 0.3s linear;
 }
 
-ul {
-
-}
-
-li {
-    
-}
-
 input, textarea {
     border: 1px solid $border-color;
     border-radius: 3px;
@@ -68,15 +60,36 @@ button {
 .emphasize {
     border-bottom: 4px solid $border-color;
     display: inline-block;
-    line-height: 0.79;
+    line-height: 1.0;
 
     &-dark {
         border-bottom-color: $border-color-light;
     }
 }
 
-@media screen and (max-width: 768px) {
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
+}
+
+@media screen and (min-width: $desktop) {
+
+    .emphasize {
+        line-height: 0.79;
+    }
+
     main {
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
     }
 }
 

@@ -10,6 +10,7 @@
     z-index: 3;
 
     .header-container {
+        margin-top: 50px;
         height: 100%;
         position: relative;
     }
@@ -21,12 +22,9 @@
     
     li {
         list-style-type: none;
-        font-size: 80px;
-        line-height: 70px;
+        font-size: 40px;
+        // line-height: 70px;
         text-align: left;
-        display: inline-block;
-        width: 50%;
-        float: left;
     }
 
     a {
@@ -85,11 +83,13 @@ header.header {
 }
 
 .header {
+    height: 74px;
     text-align: center;
     width: 100%;
     
     .logo {
         display: inline-block;
+        float: left;
     }
     
     .menu-icon {
@@ -103,6 +103,13 @@ header.header {
         opacity: 0;
         padding: 0;
     }
+
+    .menu-close {
+        position: absolute;
+        right: 0;
+        font-size: 35px;
+        padding: 0px 30px;
+    }
     
     .horizontal-menu-bar {
         position: absolute;
@@ -115,9 +122,8 @@ header.header {
             display: block;
             background-color: black;
             width: 30px;
-            height: 2px;
+            height: 3.6px;
             content: '';
-            border-radius: 2px;
             position: absolute;
         }
         
@@ -226,6 +232,23 @@ header.header {
         .address {
             position: relative;
             margin-top: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .slide-header {
+        li {
+            float: left;
+            font-size: 80px;
+            display: inline-block;
+            width: 50%;
+        }
+    }
+
+    .header {
+        .logo {
+            float: none;
         }
     }
 }

@@ -15,8 +15,8 @@ layout: default
 
   {% for client in site.data.index.clients %}
   <div class="client">
-    <div class="client-image">
-      <img src="{{client.url}}">
+    <div class="client-image" style="background-image:url({{client.url}})">
+      <img class="client-image-mobile" src="{{client.url}}">
     </div>
     <div class="description">
       <h4 class="emphasize">{{ client.name }}</h4>

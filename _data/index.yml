@@ -36,3 +36,14 @@ client_list:
 
       - image: assets/images/
         url: google.ca
+
+reasons_section:
+  title: Real People
+  sub-title: Reasons to use MiLo casting
+  reasons:
+    - name: Service One
+    - name: Service Two
+    - name: Service One
+    - name: Service Two
+    - name: Service One
+    - name: Service Two
