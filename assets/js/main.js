@@ -9,8 +9,7 @@ showMenu[0].addEventListener('click', function () {
     if (navMenu[0].classList.contains('open')) {
         navMenu[0].classList.remove('open');
         mainClass[0].classList.remove('open');
-    }
-    else {
+    } else {
         navMenu[0].className += " open";
         mainClass[0].classList += " open";
     }
@@ -23,7 +22,7 @@ closeMenu[0].addEventListener('click', function () {
     }
 });
 
-mainClass[0].addEventListener('click', function (event) {
+mainClass[0].addEventListener('click', function () {
     if (navMenu[0].classList.contains('open')) {
         navMenu[0].classList.remove('open');
         mainClass[0].classList.remove('open');

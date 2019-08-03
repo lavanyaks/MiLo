@@ -19,7 +19,14 @@ clients:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus.
     url: /assets/images/image-mid.png
 
+clients_single:
+  - sub-title: A headline about us and <span class="emphasize">who we are.</span>
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
+    url: /assets/images/lady-daughter.png
+
 social: More Work
+
+social_1: <span class="emphasize">Work</span> <span class="emphasize">With Us</span>
 
 social_large:
   title: This is the story about our <span class="emphasize">Real People</span>
@@ -28,15 +35,23 @@ social_large:
   url: /assets/images/image-bot.png
 
 client_list:
-  - title: Brands
-    sub-title: We Have Worked With
-    clients:
-      - image: assets/images/
-        url: google.ca
+  title: <span class="emphasize">Brands</span>
+  sub-title: <span class="emphasize">We Have</span>
+  sub-sub-title: <span class="emphasize">Worked With</span>
+  clients:
+    - image: assets/images/brands.png
+      url: google.ca
 
-      - image: assets/images/
-        url: google.ca
+    - image: assets/images/brands.png
+      url: google.ca
+    
+    - image: assets/images/brands.png
+      url: google.ca
 
+    - image: assets/images/brands.png
+      url: google.ca
+
+# not to be used for homepage
 reasons_section:
   title: Real People
   sub-title: Reasons to use MiLo casting

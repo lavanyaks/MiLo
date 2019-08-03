@@ -4,24 +4,28 @@ title: Contact
 permalink: /contact/
 ---
 
-<div class="home">
-    <div class="featured-content"
-        style="background-image:url({{site.data.index.featured_content.background_url}})">
-        {% for link in site.data.index.featured_content.links %}
+<div class="">
+    <div class="featured-content" style="background-image:url({{site.data.contact.featured_content.background_url}})">
+        <h3>{{ site.data.contact.featured_content.text }}</h3>
+
+        {% for link in site.data.contact.featured_content.links %}
         <a href="{{ link.url }}">{{ link.text }}</a>
         {% endfor %}
-        <h3>{{ site.data.index.featured_content.text }}</h3>
 
         <div class="scroll-down">
-            <i class="fas fa-arrow-down"></i>
+            <img src="/assets/images/arrow.png" alt="Scroll down">
         </div>
     </div>
 
-    <div class="reasons_section">
-        <h3>{{ site.data.index.reasons_section.title }}</h3>
-        <h3>{{ site.data.index.reasons_section.sub-title }}</h3>
-        {% for client in site.data.index.reasons_section.reasons %}
+    <div class="reasons_section vertical-links">
+        <h3>{{ site.data.contact.reasons_section.title }}</h3>
+        <h3>{{ site.data.contact.reasons_section.sub-title }}</h3>
+        {% for client in site.data.contact.reasons_section.reasons %}
             <h5 class="">{{ client.name }}</h5>
         {% endfor %}
+    </div>
+
+    <div>
+        Follow Us
     </div>
 </div>

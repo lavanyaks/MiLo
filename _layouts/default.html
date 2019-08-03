@@ -2,6 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {% include head.html %}
+  {% include analytics.html %}
 
   <body>
 
@@ -25,7 +26,6 @@
         window.attachEvent("onload", downloadJSAtOnload);
       else window.onload = downloadJSAtOnload;
     </script>
-    <!-- <script defer src="/assets/js/vendor/lazysizes.min.js"></script> -->
   </body>
 
 </html>

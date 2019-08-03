@@ -1,0 +1,10 @@
+featured_content:
+  background_url: /assets/images/contact/top.png
+  text: Real stories, people and truths.
+  links:
+    - text: For Brands
+      url: /for-brands/
+    
+    - text: For People
+      url: /for-people/
+

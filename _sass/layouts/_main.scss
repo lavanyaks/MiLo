@@ -17,7 +17,7 @@ header, main, footer {
 }
 
 header {
-    padding: 20px 50px 50px;
+    padding: 35px;
 }
 
 footer {
@@ -58,13 +58,19 @@ button {
 }
 
 .emphasize {
-    border-bottom: 4px solid $border-color;
+    border-bottom: 3px solid $border-color;
     display: inline-block;
     line-height: 1.0;
 
+    // against a lighter background
     &-dark {
         border-bottom-color: $border-color-light;
     }
+}
+
+.scroll-down > * {
+    height: 47px;
+    width: 36px;
 }
 
 .mobile {

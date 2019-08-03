@@ -1,0 +1,32 @@
+featured_content:
+  background_url: /assets/images/about/hands.png
+  text: We Help Real People Tell Their Stories.
+  links:
+    - text: For Brands
+      url: /for-brands/
+    
+    - text: For People
+      url: /for-people/
+
+clients:
+  - name: Key Service 1
+    sub-title: Copy to Explain
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus.
+    url: /assets/images/about/stool.png
+
+  - name: Key Service 2
+    sub-title: Copy to Explain
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
+    url: /assets/images/about/stool.png
+
+  - name: Key Service 3
+    sub-title: Copy to Explain
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
+    url: /assets/images/about/shoelace.png
+
+  - name: Key Service 4
+    sub-title: Copy to Explain
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
+    url: /assets/images/about/jeanjacket.png
+
+social_1: <span class="emphasize">Work</span> <span class="emphasize">With Us</span>

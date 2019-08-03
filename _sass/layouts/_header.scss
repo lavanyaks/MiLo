@@ -9,6 +9,10 @@
     text-align: right;
     z-index: 3;
 
+    .header {
+        height: 74px;
+    }
+
     .header-container {
         margin-top: 50px;
         height: 100%;
@@ -22,8 +26,7 @@
     
     li {
         list-style-type: none;
-        font-size: 40px;
-        // line-height: 70px;
+        font-size: 48px;
         text-align: left;
     }
 
@@ -83,9 +86,9 @@ header.header {
 }
 
 .header {
-    height: 74px;
     text-align: center;
     width: 100%;
+    z-index: 1;
     
     .logo {
         display: inline-block;

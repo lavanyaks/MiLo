@@ -1,8 +1,38 @@
 .featured-content {
     background-size: cover;
-    height: 100vh;
-    padding: 200px 20%;
+    background-position: center;
+    padding: 200px 35px 0;
+    position: relative;
     text-align: center;
+
+    a {
+        font-size: 18px;
+        font-weight: 500;
+
+        &:nth-of-type(1) {
+            margin-right: 20px;
+        }
+    }
+
+    h3 {
+        font-size: 35px;
+        margin: 60px 0;
+    }
+
+    .scroll-down {
+        width: 100%;
+        text-align: center;
+        text-align: center;
+        padding: 150px 0 20px;
+    }
+
+    .vertical-links {
+        display: block;
+
+        &:nth-of-type(1) {
+            margin: 0 0 15px;
+        }
+    }
 }
 
 .client {
@@ -12,8 +42,18 @@
     position: relative;
     text-align: center;
 
+    .client-image {
+        height: 340px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    img {
+        display: none;
+    }
+
     .description {
-        padding: 50px;
+        padding: 50px 35px;
     }
 }
 
@@ -26,41 +66,80 @@
     margin: 20px;
 
     i {
-        font-size: 24px;
+        font-size: 18px;
         padding: 0 5px;
     }
 }
 
 .social-large {
-    padding: 50px 20px;
+    background-size: cover;
+    padding: 80px 35px;
     text-align: center;
 
+    h3 {
+        line-height: 35px;
+    }
     .description {
-        margin-bottom: 50px;
+        margin: 30px 0 50px;
+    }
+}
+
+.clients_single, .reasons_section {
+    .title {
+        font-size: 30px;
     }
 }
 
 .reasons_section {
+    padding: 50px 35px;
     text-align: center;
+    display: inline-block;
+
+    .reasons {
+        margin: 0 40px;
+        display: inline-block;
+    }
+
+    .reason {
+        width: 50%;
+        float: left;
+        padding: 25px 15px 0px;
+    }
 }
 
-@media only screen and (min-width: $desktop) {
+.client_list {
+    margin: 0 35px;
+    text-align: center;
+
+    .brands_list {
+        display: inline-block;
+        margin: 30px 0;
+    }
+
+    a {
+        float: left;
+        width: calc(50% - 7.5px);
+    }
+
+    a:nth-of-type(2n+1) {
+        margin: 0 15px 10px 0px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
     .featured-content {
-
-        a {
-            font-size: 24px;
-            font-weight: 500;
-        }
-
-        a:nth-of-type(n+1) {
-            margin-left: 20px;
-        }
+        height: 100vh;
     }
 
     .client {
         flex-direction: row;
+
         > * {
             width: 50%;
+        }
+
+        img {
+            display: block;
         }
     }
 

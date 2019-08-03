@@ -1,0 +1,48 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+<div>
+    <div class="featured-content"
+        style="background-image:url({{site.data.about.featured_content.background_url}})">
+        <h3>{{ site.data.about.featured_content.text }}</h3>
+
+        {% for link in site.data.about.featured_content.links %}
+        <a class="vertical-links" href="{{ link.url }}">{{ link.text }}</a>
+        {% endfor %}
+        <div class="scroll-down">
+            <img src="/assets/images/arrow.png" alt="Scroll down">
+        </div>
+    </div>
+
+    <div class="reasons_section">
+        <h3 class="title">{{ site.data.about.reasons_section.title }}</h3>
+        <h3 class="title">{{ site.data.about.reasons_section.sub-title }}</h3>
+        <div class="reasons">
+            {% for client in site.data.about.reasons_section.reasons %}
+            <p class="reason">{{ client.name }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% for client in site.data.about.clients %}
+    <div class="client">
+        <div class="client-image" style="background-image:url({{client.url}})">
+            <img class="client-image-mobile" src="{{client.url}}">
+        </div>
+        <div class="description">
+            <h3 class="emphasize">{{ client.name }}</h3>
+            <h4 class="">{{ client.sub-title }}</h4>
+            <p>{{ client.description }}</p>
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="social">
+        <h2 class="title">{{ site.data.about.social_1 }}</h2>
+        {% include social.html %}
+    </div>
+
+</div>
