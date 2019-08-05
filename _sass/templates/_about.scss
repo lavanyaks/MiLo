@@ -1,5 +1,42 @@
-.about-page {
-    .featured-content {
+.about {
+    .bold {
+        font-weight: 500;
+    }
 
+    .featured-content {
+        .bold {
+            display: block;
+        }
+    }
+
+    .description-background {
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .long-description {
+        margin: auto;
+        padding: 50px 0;
+        text-align: center;
+        width: 350px;
+
+        .title {
+            line-height: 1.2;
+            margin-bottom: 50px;
+        }
+
+        .desc {
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 26px;
+        }
+    }
+
+    @media only screen and (min-width: $desktop) {
+        .description-background {
+            background-position: inherit;
+        }
     }
 }

@@ -1,12 +1,14 @@
 ---
 layout: default
-title: About
+title: MiLO casting | About
 permalink: /about/
 ---
 
-<div>
+<div class="about">
     <div class="featured-content"
         style="background-image:url({{site.data.about.featured_content.background_url}})">
+
+        {% if site.data.about.featured_content.title %}<h2>{{ site.data.about.featured_content.title }}</h2>{% endif %}
         <h3>{{ site.data.about.featured_content.text }}</h3>
 
         {% for link in site.data.about.featured_content.links %}
@@ -14,16 +16,6 @@ permalink: /about/
         {% endfor %}
         <div class="scroll-down">
             <img src="/assets/images/arrow.png" alt="Scroll down">
-        </div>
-    </div>
-
-    <div class="reasons_section">
-        <h3 class="title">{{ site.data.about.reasons_section.title }}</h3>
-        <h3 class="title">{{ site.data.about.reasons_section.sub-title }}</h3>
-        <div class="reasons">
-            {% for client in site.data.about.reasons_section.reasons %}
-            <p class="reason">{{ client.name }}</p>
-            {% endfor %}
         </div>
     </div>
 
@@ -39,6 +31,25 @@ permalink: /about/
         </div>
     </div>
     {% endfor %}
+
+    <div class="social dark">
+        <h2 class="title">{{ site.data.about.social_1 }}</h2>
+    </div>
+
+    <div class="description-background" style="background-image:url({{site.data.about.long_description.url}})">
+        <div class="long-description">
+            <h2 class="title">
+                {{ site.data.about.long_description.title }}
+            </h2>
+            {% for desc in site.data.about.long_description.desc %}
+            <div class="desc">
+                <p>{{ desc.para }}</p>
+                {% if desc.line_1 %}<p>{{ desc.line_1 }}</p>{% endif %}
+                {% if desc.line_2 %}<p>{{ desc.line_2 }}</p>{% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 
     <div class="social">
         <h2 class="title">{{ site.data.about.social_1 }}</h2>

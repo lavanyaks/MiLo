@@ -2,11 +2,11 @@ items:
   - name: About
     url: /about/
 
-  - name: For People
-    url: /for-people/
+  - name: People
+    url: /real-people/
 
-  - name: For Brands
-    url: /for-brands/
+  - name: Brands
+    url: /brands/
 
   - name: Contact
     url: /contact/

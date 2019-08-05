@@ -1,0 +1,30 @@
+.faqs {
+    padding: 75px 35px;
+    
+    p {
+        margin-bottom: 35px;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+
+    .title {
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .faqs {
+        padding: 75px 100px;
+    
+        p {
+            margin-bottom: 50px;
+        }
+
+        .section {
+            margin-bottom: 75px;
+        }
+    }
+}

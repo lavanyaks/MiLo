@@ -1,9 +1,24 @@
 ---
 layout: default
-title: Privacy Policy
+title: MiLO casting | Privacy Policy
 permalink: /privacy-policy/
 ---
 
-<div class="about-page">
-    <img class="featured-content" style="background-image:url({{site.data.privacy_policy.featured_content.background_url}})"></img>
+<div class="privacy_policy">
+    <div class="featured-content" style="background-image:url({{site.data.privacy_policy.featured_content.background_url}})">
+
+        <h3>{{ site.data.index.featured_content.text }}</h3>
+
+        <div class="scroll-down bounce">
+            <img src="/assets/images/arrow.png" alt="Scroll down">
+        </div>
+    </div>
+    <div class="faqs">
+        {% for section in site.data.privacy_policy.section %}
+        <div class="section">
+            <p class="title">{{ section.title }}</p>
+            {{ section.description }}
+        </div>
+        {% endfor %}
+    </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: MiLO casting | Contact
 permalink: /contact/
 ---
 
@@ -9,7 +9,7 @@ permalink: /contact/
         <h3>{{ site.data.contact.featured_content.text }}</h3>
 
         {% for link in site.data.contact.featured_content.links %}
-        <a href="{{ link.url }}">{{ link.text }}</a>
+        <a class="vertical-links" href="{{ link.url }}" {% if link.target %} target="{{ link.target }}" {% endif %}>{{ link.text }}</a>
         {% endfor %}
 
         <div class="scroll-down">
@@ -17,15 +17,8 @@ permalink: /contact/
         </div>
     </div>
 
-    <div class="reasons_section vertical-links">
-        <h3>{{ site.data.contact.reasons_section.title }}</h3>
-        <h3>{{ site.data.contact.reasons_section.sub-title }}</h3>
-        {% for client in site.data.contact.reasons_section.reasons %}
-            <h5 class="">{{ client.name }}</h5>
-        {% endfor %}
-    </div>
-
-    <div>
-        Follow Us
+    <div class="follow-us">
+        <h3>{{ site.data.contact.social_text }}</h3>
+        {% include social-text.html %}
     </div>
 </div>

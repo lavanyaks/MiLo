@@ -3,10 +3,10 @@ featured_content:
   text: Real stories, people and truths.
   links:
     - text: For Brands
-      url: /for-brands/
+      url: /brands/
     
     - text: For People
-      url: /for-people/
+      url: /real-people/
 
 clients:
   - name: Air Canada

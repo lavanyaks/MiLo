@@ -12,7 +12,9 @@ body {
     width: 100%;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     // display: inline-block;
 }
 
@@ -41,7 +43,8 @@ img {
     animation: opacity 0.3s linear;
 }
 
-input, textarea {
+input,
+textarea {
     border: 1px solid $border-color;
     border-radius: 3px;
     font-size: 16px;
@@ -68,7 +71,7 @@ button {
     }
 }
 
-.scroll-down > * {
+.scroll-down>* {
     height: 47px;
     width: 36px;
 }
@@ -81,14 +84,22 @@ button {
     display: none;
 }
 
+.dark {
+    background-color: $background-dark;
+    color: $text-light;
+
+    span {
+        border-bottom: 3px solid $border-color-light;
+    }
+}
+
 @media screen and (min-width: $desktop) {
 
     .emphasize {
         line-height: 0.79;
     }
 
-    main {
-    }
+    main {}
 
     .desktop {
         display: block;

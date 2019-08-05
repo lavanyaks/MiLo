@@ -1,12 +1,7 @@
 featured_content:
   background_url: /assets/images/about/hands.png
+  title: Hi We're <span class="bold">MiLO</span>
   text: We Help Real People Tell Their Stories.
-  links:
-    - text: For Brands
-      url: /for-brands/
-    
-    - text: For People
-      url: /for-people/
 
 clients:
   - name: Key Service 1
@@ -30,3 +25,35 @@ clients:
     url: /assets/images/about/jeanjacket.png
 
 social_1: <span class="emphasize">Work</span> <span class="emphasize">With Us</span>
+
+long_description:
+  title: <span class="bold">MiLO is <span class="block">Rebellious</span></span>
+  url: /assets/images/about/hands-right.png
+  desc:
+    - para: Goes where others have never, or been afraid to have gone before.
+
+    - para: Milo is <span class="bold">Progressive</span>
+      line_1: Ahead of the curve before it’s bent
+      line_2: Evolutionary to the core.
+
+    - para: Milo is <span class="bold">confident</span>
+      line_1: Without an airbrush, filter or make-up.
+      line 2: Not afraid to disrupt the status quo.
+
+    - para: Milo is <span class="bold">unbiased</span>
+      line_1: Believes in diversity from every corner of the globe
+      line_2: That all humans are created equal, natural flaws and all.
+
+    - para: Milo is <span class="bold">youthful</span>
+      line_1: Embodies a childlike curiosity in everyday things
+      line_2: With unbridled enthusiasm and bright eyed glee.
+
+    - para: Milo is <span class="bold">raw</span>
+      line_1: Real moments Truth in everyday storytelling
+      line_2: Flawless authenticity in everything we do.
+
+    - para: Milo is <span class="bold">smart</span>
+      line_1: With fearless leadership and collaboration, Milo possibles the impossible,
+      line_2: Finds the unfindable. Searches the unsearchable
+
+    - para: Milo is the stories we tell.

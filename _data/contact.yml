@@ -2,9 +2,11 @@ featured_content:
   background_url: /assets/images/contact/top.png
   text: Real stories, people and truths.
   links:
-    - text: For Brands
-      url: /for-brands/
+    - text: Email
+      url: mailto:steve@milocasting.com
     
-    - text: For People
-      url: /for-people/
+    - text: Directions
+      url: https://www.google.ca/maps?q=60+Sumach+Street%E2%80%943rd+Floor+Toronto+Ontario+M5A+3J7+Canada&hl=en&ie=UTF8&sll=43.656152,-79.359119&sspn=0.381034,0.503311&vpsrc=0&gl=ca&hnear=60+Sumach+St,+Toronto,+Ontario+M5A+3J7&t=m&z=16
+      target: _blank
 
+social_text: Follow Us

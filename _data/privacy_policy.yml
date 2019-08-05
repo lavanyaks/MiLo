@@ -1,0 +1,31 @@
+featured_content:
+  background_url: /assets/images/privacy_policy/top.png
+  text: Our Privacy Policy
+
+section:
+  - title: Section 1 - What do we do with your information?
+    description: "<p>When you purchase something from our store, as part of the buying and selling process, we collect the personal information you give us such as your name, address and email address.</p><p>When you browse our store, we also automatically receive your computer’s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system.</p><p>Email marketing: With your permission, we may send you emails about our store, new products and other updates.</p>"
+
+  - title: Section 2 - Consent
+    description: "<p>If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no.</p><p>If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at stephen@milocasting.com or mailing us at: MiLO Casting 60 Sumach Ave, Toronto ON, M5A 3J7</p>"
+
+  - title: Section 3 - Disclosure
+    description: <p>We may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.</p>
+
+  - title: Section 4 - Third-party services
+    description: "<p>In general, the third-party providers used by us will only collect, use and disclose your information to the extent necessary to allow them to perform the services they provide to us.</p><p>However, certain third-party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies in respect to the information we are required to provide to them for your purchase-related transactions.</p><p>For these providers, we recommend that you read their privacy policies so you can understand the manner in which your personal information will be handled by these providers.</p><p>In particular, remember that certain providers may be located in or have facilities that are located a different jurisdiction than either you or us. So if you elect to proceed with a transaction that involves the services of a third-party service provider, then your information may become subject to the laws of the jurisdiction(s) in which that service provider or its facilities are located.</p>"
+
+  - title: Section 5 - Security
+    description: <p>To protect your personal information, we take reasonable precautions and follow industry best practices to make sure it is not inappropriately lost, misused, accessed, disclosed, altered or destroyed.</p><p>If you provide us with your credit card information, the information is encrypted using secure socket layer technology (SSL) and stored with a AES-256 encryption. Although no method of transmission over the Internet or electronic storage is 100% secure, we follow all PCI-DSS requirements and implement additional generally accepted industry standards.</p>
+
+  - title: Section 6 - Age of Consent
+    description: <p>By using this site, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.</p>
+
+  - title: Section 7 - Changes to this Privacy Policy
+    description: <p>We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.</p><p>If our store is acquired or merged with another company, your information may be transferred to the new owners so that we may continue to sell products to you.</p>
+
+  - title: Cookies
+    description: <p>Here is a list of cookies that we use. We’ve listed them here so you that you can choose if you want to opt-out of cookies or not.</p><p>_session_id, unique token, sessional, Allows Shopify to store information about your session (referrer, landing page, etc).</p><p>_shopify_visit, no data held, Persistent for 30 minutes from the last visit, Used by our website provider’s internal stats tracker to record the number of visits.</p><p>_shopify_uniq, no data held, expires midnight (relative to the visitor) of the next day, Counts the number of visits to a store by a single customer.</p><p>cart, unique token, persistent for 2 weeks, Stores information about the contents of your cart.</p><p>_secure_session_id, unique token, sessional</p><p>storefront_digest, unique token, indefinite If the shop has a password, this is used to determine if the current visitor has access.</p>
+
+  - title: Questions and Contact Information
+    description: "<p>If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact us at steve@milocasting.com or by mail to:</p><p>Stephen Milo<br/>60 Sumach St<br/>Toronto ON<br/>M5A 3J7</p>"
