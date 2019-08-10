@@ -30,7 +30,7 @@ mainClass[0].addEventListener('click', function () {
 });
 
 if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/service-worker.js").then(function() {
+    navigator.serviceWorker.register("/MiLO/service-worker.js").then(function() {
         console.log("Service Worker Registered");
     });
 }

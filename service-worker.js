@@ -3,7 +3,7 @@ var cacheName = "M1";
 var filesToCache = [
     '/',
     'assets/css/styles.css',
-    '/assets/js/main.js'
+    '/MiLO/assets/js/main.js'
 ];
 
 self.addEventListener("install", function(e) {

@@ -1,5 +1,5 @@
 featured_content:
-  background_url: /assets/images/image-top.png
+  background_url: /MiLO/assets/images/image-top.png
   text: Real stories, people and truths.
   links:
     - text: For Brands
@@ -12,17 +12,17 @@ clients:
   - name: Air Canada
     sub-title: Transform the Air
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
-    url: /assets/images/image-mid.png
+    url: /MiLO/assets/images/image-mid.png
     
   - name: Dove
     sub-title: Beauty has no age
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus.
-    url: /assets/images/image-mid.png
+    url: /MiLO/assets/images/image-mid.png
 
 clients_single:
   - sub-title: A headline about us and <span class="emphasize">who we are.</span>
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
-    url: /assets/images/lady-daughter.png
+    url: /MiLO/assets/images/lady-daughter.png
 
 social: More Work
 
@@ -32,7 +32,7 @@ social_large:
   title: This is the story about our <span class="emphasize">Real People</span>
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus.
   social: Join Us
-  url: /assets/images/image-bot.png
+  url: /MiLO/assets/images/image-bot.png
 
 client_list:
   title: <span class="emphasize">Brands</span>

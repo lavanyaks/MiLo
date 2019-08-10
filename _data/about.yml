@@ -1,5 +1,5 @@
 featured_content:
-  background_url: /assets/images/about/hands.png
+  background_url: /MiLO/assets/images/about/hands.png
   title: Hi We're <span class="bold">MiLO</span>
   text: We Help Real People Tell Their Stories.
 
@@ -7,28 +7,28 @@ clients:
   - name: Key Service 1
     sub-title: Copy to Explain
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus.
-    url: /assets/images/about/stool.png
+    url: /MiLO/assets/images/about/stool.png
 
   - name: Key Service 2
     sub-title: Copy to Explain
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
-    url: /assets/images/about/stool.png
+    url: /MiLO/assets/images/about/stool.png
 
   - name: Key Service 3
     sub-title: Copy to Explain
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
-    url: /assets/images/about/shoelace.png
+    url: /MiLO/assets/images/about/shoelace.png
 
   - name: Key Service 4
     sub-title: Copy to Explain
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae orci maximus, tincidunt nisi id, efficitur enim. Sed vitae odio sed lorem porttitor rhoncus. 
-    url: /assets/images/about/jeanjacket.png
+    url: /MiLO/assets/images/about/jeanjacket.png
 
 social_1: <span class="emphasize">Work</span> <span class="emphasize">With Us</span>
 
 long_description:
   title: <span class="bold">MiLO is <span class="block">Rebellious</span></span>
-  url: /assets/images/about/hands-right.png
+  url: /MiLO/assets/images/about/hands-right.png
   desc:
     - para: Goes where others have never, or been afraid to have gone before.
 
